@@ -1,14 +1,13 @@
 {
-  "name": "@miladyai/plugin-wechat",
+  "name": "@elizaos/plugin-wechat",
   "version": "0.1.0",
   "description": "WeChat connector plugin for elizaOS via proxy API",
   "type": "module",
   "license": "MIT",
-  "homepage": "https://github.com/milady-ai/milady",
+  "homepage": "https://github.com/milady-ai/plugin-wechat",
   "repository": {
     "type": "git",
-    "url": "https://github.com/milady-ai/milady.git",
-    "directory": "packages/plugin-wechat"
+    "url": "https://github.com/milady-ai/plugin-wechat.git"
   },
   "main": "src/index.ts",
   "types": "src/index.ts",
@@ -30,8 +29,7 @@
     "@elizaos/core": "alpha"
   },
   "publishConfig": {
-    "access": "public",
-    "directory": "dist"
+    "access": "public"
   },
   "devDependencies": {
     "@elizaos/core": "alpha",
@@ -49,5 +47,13 @@
         "description": "WeChat proxy service API key"
       }
     }
-  }
+  },
+  "keywords": [
+    "plugin",
+    "elizaos",
+    "wechat",
+    "connector",
+    "messaging"
+  ],
+  "packageType": "plugin"
 }
