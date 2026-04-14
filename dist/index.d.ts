@@ -79,6 +79,7 @@ declare class Bot {
   private cleanup;
   stop(): void;
 }
+//# sourceMappingURL=bot.d.ts.map
 //#endregion
 //#region src/channel.d.ts
 interface ChannelOptions {
@@ -104,6 +105,7 @@ declare class WechatChannel {
   private healthCheck;
   private resolveAccounts;
 }
+//# sourceMappingURL=channel.d.ts.map
 //#endregion
 //#region src/proxy-client.d.ts
 declare class ProxyClient {
@@ -150,6 +152,7 @@ declare class ReplyDispatcher {
   sendImage(to: string, imagePath: string, caption?: string): Promise<void>;
   private chunk;
 }
+//# sourceMappingURL=reply-dispatcher.d.ts.map
 //#endregion
 //#region src/runtime-bridge.d.ts
 interface IncomingWechatDeliveryOptions {
@@ -159,6 +162,7 @@ interface IncomingWechatDeliveryOptions {
   sendText: (accountId: string, to: string, text: string) => Promise<void>;
 }
 declare function deliverIncomingWechatMessage(options: IncomingWechatDeliveryOptions): Promise<void>;
+//# sourceMappingURL=runtime-bridge.d.ts.map
 //#endregion
 //#region src/index.d.ts
 interface Plugin {
@@ -169,3 +173,4 @@ interface Plugin {
 declare const wechatPlugin: Plugin;
 //#endregion
 export { Bot, Plugin, ProxyClient, ReplyDispatcher, WechatChannel, type WechatConfig, type WechatMessageContext, wechatPlugin as default, wechatPlugin, deliverIncomingWechatMessage };
+//# sourceMappingURL=index-DFEBtyZT.d.ts.map

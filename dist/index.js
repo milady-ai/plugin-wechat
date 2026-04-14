@@ -760,3 +760,5 @@ const wechatPlugin = {
 };
 //#endregion
 export { Bot, ProxyClient, ReplyDispatcher, WechatChannel, wechatPlugin as default, wechatPlugin, deliverIncomingWechatMessage };
+
+//# sourceMappingURL=index.js.map

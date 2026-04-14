@@ -1,4 +1,4 @@
-# @miladyai/plugin-wechat
+# @elizaos/plugin-wechat
 
 WeChat connector plugin for [elizaOS](https://github.com/elizaOS/eliza) via proxy API.
 
@@ -12,7 +12,7 @@ WeChat connector plugin for [elizaOS](https://github.com/elizaOS/eliza) via prox
 ## Install
 
 ```bash
-npx elizaos plugins add @miladyai/plugin-wechat
+npx elizaos plugins add @elizaos/plugin-wechat
 ```
 
 ## Configuration
