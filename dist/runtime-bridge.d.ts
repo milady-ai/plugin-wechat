@@ -8,8 +8,5 @@ interface IncomingWechatDeliveryOptions {
   sendText: (accountId: string, to: string, text: string) => Promise<void>;
 }
 declare function deliverIncomingWechatMessage(options: IncomingWechatDeliveryOptions): Promise<void>;
-//# sourceMappingURL=runtime-bridge.d.ts.map
-
 //#endregion
 export { deliverIncomingWechatMessage };
-//# sourceMappingURL=runtime-bridge.d.ts.map

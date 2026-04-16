@@ -42,7 +42,6 @@ var ReplyDispatcher = class {
 		return chunks;
 	}
 };
+
 //#endregion
 export { ReplyDispatcher };
-
-//# sourceMappingURL=reply-dispatcher.js.map

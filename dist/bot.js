@@ -44,7 +44,6 @@ var Bot = class {
 		this.seen.clear();
 	}
 };
+
 //#endregion
 export { Bot };
-
-//# sourceMappingURL=bot.js.map

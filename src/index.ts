@@ -2,6 +2,34 @@ import { WechatChannel } from "./channel";
 import { deliverIncomingWechatMessage } from "./runtime-bridge";
 import type { WechatConfig, WechatMessageContext } from "./types";
 
+export const WECHAT_PLUGIN_PACKAGE = "@miladyai/plugin-wechat" as const;
+
+export function isWechatConnectorConfigured(
+  config: WechatConfig | Record<string, unknown> | null | undefined,
+): boolean {
+  if (!config || config.enabled === false) {
+    return false;
+  }
+
+  if (config.apiKey) {
+    return true;
+  }
+
+  const accounts = config.accounts;
+  if (accounts && typeof accounts === "object") {
+    return Object.values(
+      accounts as Record<string, Record<string, unknown>>,
+    ).some((account) => {
+      if (account.enabled === false) {
+        return false;
+      }
+      return Boolean(account.apiKey);
+    });
+  }
+
+  return false;
+}
+
 export interface Plugin {
   name: string;
   description: string;

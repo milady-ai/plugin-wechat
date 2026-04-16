@@ -13,7 +13,5 @@ declare class ReplyDispatcher {
   sendImage(to: string, imagePath: string, caption?: string): Promise<void>;
   private chunk;
 }
-//# sourceMappingURL=reply-dispatcher.d.ts.map
 //#endregion
 export { ReplyDispatcher };
-//# sourceMappingURL=reply-dispatcher.d.ts.map

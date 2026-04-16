@@ -24,7 +24,5 @@ declare class WechatChannel {
   private healthCheck;
   private resolveAccounts;
 }
-//# sourceMappingURL=channel.d.ts.map
 //#endregion
 export { WechatChannel };
-//# sourceMappingURL=channel.d.ts.map

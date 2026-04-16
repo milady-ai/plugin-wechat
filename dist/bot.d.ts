@@ -21,7 +21,5 @@ declare class Bot {
   private cleanup;
   stop(): void;
 }
-//# sourceMappingURL=bot.d.ts.map
 //#endregion
 export { Bot };
-//# sourceMappingURL=bot.d.ts.map

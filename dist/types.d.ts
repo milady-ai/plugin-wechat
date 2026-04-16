@@ -59,4 +59,3 @@ interface AccountStatus {
 }
 //#endregion
 export { AccountStatus, ResolvedWechatAccount, WechatConfig, WechatMessageContext };
-//# sourceMappingURL=types.d.ts.map
