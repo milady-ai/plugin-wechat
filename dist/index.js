@@ -5,7 +5,7 @@ import { WechatChannel } from "./channel.js";
 import { deliverIncomingWechatMessage } from "./runtime-bridge.js";
 
 //#region src/index.ts
-const WECHAT_PLUGIN_PACKAGE = "@miladyai/plugin-wechat";
+const WECHAT_PLUGIN_PACKAGE = "@elizaos/plugin-wechat";
 function isWechatConnectorConfigured(config) {
 	if (!config || config.enabled === false) return false;
 	if (config.apiKey) return true;

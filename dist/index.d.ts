@@ -6,7 +6,7 @@ import { ReplyDispatcher } from "./reply-dispatcher.js";
 import { deliverIncomingWechatMessage } from "./runtime-bridge.js";
 
 //#region src/index.d.ts
-declare const WECHAT_PLUGIN_PACKAGE: "@miladyai/plugin-wechat";
+declare const WECHAT_PLUGIN_PACKAGE: "@elizaos/plugin-wechat";
 declare function isWechatConnectorConfigured(config: WechatConfig | Record<string, unknown> | null | undefined): boolean;
 interface Plugin {
   name: string;

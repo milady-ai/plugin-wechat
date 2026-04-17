@@ -2,7 +2,7 @@ import { WechatChannel } from "./channel";
 import { deliverIncomingWechatMessage } from "./runtime-bridge";
 import type { WechatConfig, WechatMessageContext } from "./types";
 
-export const WECHAT_PLUGIN_PACKAGE = "@miladyai/plugin-wechat" as const;
+export const WECHAT_PLUGIN_PACKAGE = "@elizaos/plugin-wechat" as const;
 
 export function isWechatConnectorConfigured(
   config: WechatConfig | Record<string, unknown> | null | undefined,

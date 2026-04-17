@@ -1,5 +1,5 @@
 {
-  "name": "@miladyai/plugin-wechat",
+  "name": "@elizaos/plugin-wechat",
   "version": "0.1.0",
   "description": "WeChat connector plugin for elizaOS via proxy API",
   "type": "module",
