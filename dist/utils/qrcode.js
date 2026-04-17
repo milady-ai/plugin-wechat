@@ -15,6 +15,5 @@ function displayQRUrl(url) {
 	console.log("Open the URL above in your browser to see the QR code.");
 	console.log("");
 }
-
 //#endregion
 export { displayQRUrl };

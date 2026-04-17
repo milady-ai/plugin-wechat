@@ -1,6 +1,5 @@
 import { timingSafeEqual } from "node:crypto";
 import { createServer } from "node:http";
-
 //#region src/callback-server.ts
 const WECHAT_TYPE_MAP = {
 	60001: {
@@ -202,6 +201,5 @@ function normalizePayload(payload) {
 		raw: payload
 	};
 }
-
 //#endregion
 export { startCallbackServer };

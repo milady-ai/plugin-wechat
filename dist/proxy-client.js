@@ -112,6 +112,5 @@ function requireData(response, action) {
 	if (response.data === void 0) throw new Error(`${action} failed: missing response data`);
 	return response.data;
 }
-
 //#endregion
 export { LoginExpiredError, ProxyClient };

@@ -1,5 +1,4 @@
 import { stringToUuid } from "@elizaos/core";
-
 //#region src/runtime-bridge.ts
 async function deliverIncomingWechatMessage(options) {
 	const runtime = options.runtime;
@@ -103,6 +102,5 @@ async function maybeHandleResponseContent(result, replyDelivered, onResponse) {
 	if (replyDelivered || !result?.responseContent) return;
 	await onResponse(result.responseContent);
 }
-
 //#endregion
 export { deliverIncomingWechatMessage };

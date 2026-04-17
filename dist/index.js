@@ -3,7 +3,6 @@ import { ProxyClient } from "./proxy-client.js";
 import { ReplyDispatcher } from "./reply-dispatcher.js";
 import { WechatChannel } from "./channel.js";
 import { deliverIncomingWechatMessage } from "./runtime-bridge.js";
-
 //#region src/index.ts
 const WECHAT_PLUGIN_PACKAGE = "@elizaos/plugin-wechat";
 function isWechatConnectorConfigured(config) {
@@ -55,6 +54,5 @@ const wechatPlugin = {
 		};
 	}
 };
-
 //#endregion
 export { Bot, ProxyClient, ReplyDispatcher, WECHAT_PLUGIN_PACKAGE, WechatChannel, wechatPlugin as default, wechatPlugin, deliverIncomingWechatMessage, isWechatConnectorConfigured };

@@ -3,7 +3,6 @@ import { startCallbackServer } from "./callback-server.js";
 import { LoginExpiredError, ProxyClient } from "./proxy-client.js";
 import { ReplyDispatcher } from "./reply-dispatcher.js";
 import { displayQRUrl } from "./utils/qrcode.js";
-
 //#region src/channel.ts
 const HEALTH_CHECK_INTERVAL_MS = 6e4;
 const LOGIN_POLL_INTERVAL_MS = 5e3;
@@ -189,6 +188,5 @@ var WechatChannel = class {
 function sleep(ms) {
 	return new Promise((resolve) => setTimeout(resolve, ms));
 }
-
 //#endregion
 export { WechatChannel };
